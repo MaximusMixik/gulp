@@ -1,0 +1,9 @@
+// @import "./blocks/_header";
+// @import "./blocks/_footer";
+
+// с помощью sass-glob можно подключать все вложенніе файлы
+@import "./base/_base.scss";
+
+@import "./blocks/*.scss";
+
+

@@ -1,0 +1,1 @@
+export default function sayHelloBeach() { console.log('hello beach!') }

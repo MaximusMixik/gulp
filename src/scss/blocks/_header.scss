@@ -1,0 +1,16 @@
+.header {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // width: 100%;
+  background-color: lightgreen;
+
+  text-align: center;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-height: 120px;
+  }
+}

@@ -1,0 +1,34 @@
+@import "./reset";
+@import "./variable";
+@import "./mixins";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  // background-image: url("./../img/safety.png");
+  // background-size: cover;
+  background-color: var(--bg-color-primary);
+  color: var(--text-color-primary);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  padding-top: toRem(8);
+  padding-bottom: toRem(8);
+}
+main {
+  flex: 1 1 auto;
+  // min-height: 100%;
+  // font-size: 40px;
+  // color: #fff;
+  // background-color: gray;
+}
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
